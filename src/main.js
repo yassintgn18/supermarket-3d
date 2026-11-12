@@ -1,6 +1,6 @@
 import './style.css'
 import * as THREE from 'three'
-import { buildStore } from './environment.js'
+import { buildStore } from './environment/index.js'
 import { addProducts } from './products.js'
 import { setupControls } from './controls.js'
 import { setupSelection } from './selection.js'
