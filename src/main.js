@@ -19,7 +19,7 @@ renderer.shadowMap.enabled = true
 document.body.appendChild(renderer.domElement)
 
 // ---------- Store (Person 1) ----------
-buildStore(scene)
+buildStore(scene, renderer)
 
 // ---------- Products (Person 2) ----------
 const productMeshes = addProducts(scene)
